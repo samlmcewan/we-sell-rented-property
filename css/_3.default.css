@@ -1,0 +1,26 @@
+/* Default styles - small devices (Mobile, screen width < 768px) */
+
+/*--------------------------------------------------------------
+# Typography
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Top Bar
+--------------------------------------------------------------*/
+.top-bar .container-fluid {
+    background-color: var(--blue);
+}
+.top-bar a {
+    text-decoration: none;
+    color: #ffffff;
+}
+.top-bar .contact-top svg {
+    width: 40px;
+}
+.top-bar .social-top a svg {
+    height: 20px;
+}
+.top-bar .social-top .social-divider {
+    height: 25px;
+    padding: 0 .75rem;
+}
