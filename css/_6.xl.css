@@ -1,6 +1,35 @@
 /* Extra large devices (large desktops, 1200px and up) */
 
 @media only screen and (min-width: 1200px) {
+    .nav-outer {
+        background-color: #ffffff;
+    }
+    .nav-outer .container-fluid {
+        --bs-gutter-x: 1.5rem;
+        --bs-gutter-y: 0;
+        width: 100%;
+        padding-right: calc(var(--bs-gutter-x) * .5);
+        padding-left: calc(var(--bs-gutter-x) * .5);
+        margin-right: auto;
+        margin-left: auto;
+}
     
+    #main-nav .nav-item {
+        border: none;
+        padding: .75rem calc(var(--bs-gutter-x) * .5);
+    }
+    #main-nav .nav-item a {
+        color: var(--darkGray);
+    }
+    #main-nav .nav-item.active {
+        background-color: unset;
+        border-bottom: 2px solid var(--light);
+    }
+    #main-nav .nav-item.active a {
+        color: var(--light);
+    }
+    #main-nav .nav-item:last-of-type {
+        padding-right: 0;
+    }
 }
         
