@@ -12,6 +12,7 @@ body {
 /* Buttons  */
 .btn {
     border-radius: 0;
+    font-size: 1.125rem;
     padding: .75rem 2rem;
     width: fit-content;
 }
@@ -258,21 +259,59 @@ body {
 
 .hero {
     background-color: var(--blue);
-    height: 34vh;
+    /* height: 34vh; */
     position: relative; /* Add position relative to the .hero container */
-}
-.hero .container {
-    height: 100%;
-}
-.hero .hero-text {
-    height: 100%;
 }
 
 .hero h1 {
     color: #ffffff;
-    font-size: 13vw;
+    font-size: 3.364rem;
+    font-size: 3em;
+    padding-bottom: 4rem;
 }
 
 .hero h1 span {
     color: var(--green);
 }
+
+.hero {
+    padding-bottom: 12rem;
+}
+
+/* Shapes  */
+.hero .shapes-container {
+    position: absolute;
+    left: 0;
+    bottom: -88px;
+}
+.combined-svg {
+    position: relative;
+    width: calc(278.64px); 
+    height: calc(406.44px); 
+    /* width: 100%;
+    max-width: 278.64px; */
+
+}
+.combined-svg svg {
+
+    position: absolute;
+    /* top: 0;
+    left: 0; */
+    /* width: 100%;
+    height: 100%; */
+}
+
+.combined-svg .svg-1 {
+    left: 0;
+    top: 0;
+  }
+
+  .combined-svg .svg-2 {
+    left: 56.269999999999996px;
+    top: 101px;
+  }
+
+  .combined-svg .svg-3 {
+    left: 0;
+    top: 99.17px;
+  }

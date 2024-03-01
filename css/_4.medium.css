@@ -11,8 +11,15 @@
 
     /* Hero  */
     .hero {
-        height: 41vw;
+        height: 46vw;
         position: relative; /* Add position relative to the .hero container */
+    }
+    .hero-text {
+        width: 60%;
+    }
+
+    .hero h1 {
+        padding-bottom: 3rem;
     }
     
     .hero .image-container {
@@ -32,14 +39,14 @@
         object-position: left;
         clip-path: polygon(100% 0, 100% 100%, 0 100%, 14% 0%);
         position: relative;
-        left: 39vw;
+        left: 44vw;
     }
     
     .hero .image-container::before {
         content: '';
         position: absolute;
         top: 0;
-        left: 36vw;
+        left: 42vw;
         width: 100%;
         height: 100%;
         background-color: white;
