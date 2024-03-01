@@ -1,6 +1,12 @@
 /* Extra large devices (large desktops, 1200px and up) */
 
 @media only screen and (min-width: 1200px) {
+    .site-logo-top {
+        width: 100%;
+    }
+    .site-logo-top svg:first-child {
+        width: 11vw;
+    }
     .nav-outer {
         background-color: #ffffff;
     }
@@ -17,19 +23,44 @@
     #main-nav .nav-item {
         border: none;
         padding: .75rem calc(var(--bs-gutter-x) * .5);
+        padding-right: 0;
+        padding-left: 0;
     }
     #main-nav .nav-item a {
-        color: var(--darkGray);
+        color: var(--gray);
+        border-right: 2px solid var(--green);
+    }
+    #main-nav .nav-item:last-of-type a {
+        border-right: none;
+
     }
     #main-nav .nav-item.active {
         background-color: unset;
-        border-bottom: 2px solid var(--light);
+        color: var(--green);
+        /* border-bottom: 2px solid var(--green); */
     }
     #main-nav .nav-item.active a {
         color: var(--light);
     }
     #main-nav .nav-item:last-of-type {
         padding-right: 0;
+    }
+    #main-nav {
+        flex-wrap: wrap;
+    }
+
+    #main-nav .site-logo-top a, #main-nav .navbar-collapse {
+        --bs-gutter-x: 1.5rem;
+        --bs-gutter-y: 0;
+        width: 100%;
+        padding-right: calc(var(--bs-gutter-x) * .5);
+        padding-left: calc(var(--bs-gutter-x) * .5);
+        margin-right: auto;
+        margin-left: auto;
+    }
+    #main-nav .navbar-collapse {
+        background-color: var(--darkBlue);
+        padding-left: 4vw;
     }
 }
         

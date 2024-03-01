@@ -3,7 +3,22 @@
 /*--------------------------------------------------------------
 # Typography
 --------------------------------------------------------------*/
-
+body {
+    font-size: 1.125rem;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+/* Buttons  */
+.btn {
+    border-radius: 0;
+    padding: .75rem 2rem;
+    width: fit-content;
+}
+.btn-outline {
+    color: #ffffff;
+    border: 2px solid var(--green);
+}
 /*--------------------------------------------------------------
 # Top Bar
 --------------------------------------------------------------*/
@@ -24,6 +39,7 @@
     height: 25px;
     padding: 0 .75rem;
 }
+
 /*--------------------------------------------------------------
 # Main Navigation
 --------------------------------------------------------------*/
@@ -53,15 +69,17 @@
     transition: all .3s;
 }
 #main-nav .nav-item:hover a{
-    color: var(--light);
+    color: var(--gray);
 }
 
 #main-nav .nav-item {
-    border-bottom: 1px solid var(--light);
+    border-bottom: 1px solid var(--gray);
 }
 #main-nav .nav-item.active {
-   
-    background-color: var(--light);
+    background-color: var(--blue);
+}
+#main-nav .nav-item.active a {
+    color: #ffffff;
 }
 #main-nav .btn {
     font-size: 18px;
@@ -199,3 +217,62 @@
         top: 21px;
         left: 8px;
     }
+
+/*--------------------------------------------------------------
+# Hero
+--------------------------------------------------------------*/
+/* .hero {
+    background-color: var(--blue);
+    height: 67vh;
+}
+
+.hero .image-container {
+    position: relative;
+    width: fit-content;
+    overflow: hidden;
+    height: 100%;
+}
+
+
+.hero img {
+    display: block;
+    width: fit-content;
+    height: 100%;
+    object-fit: cover;
+    object-position: left;
+    clip-path: polygon(385.23px 0.5px, 113px 0.5px, 0.61px 568.14px, 385.55px 566.94px, 385.23px 0.5px);
+    position: relative;
+    right: -30px;
+}
+.hero .image-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -10px;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    clip-path: polygon(385.23px 0.5px, 113px 0.5px, 0.61px 568.14px, 385.55px 566.94px, 385.23px 0.5px);
+    z-index: 0;
+} */
+
+.hero {
+    background-color: var(--blue);
+    height: 34vh;
+    position: relative; /* Add position relative to the .hero container */
+}
+.hero .container {
+    height: 100%;
+}
+.hero .hero-text {
+    height: 100%;
+}
+
+.hero h1 {
+    color: #ffffff;
+    font-size: 13vw;
+}
+
+.hero h1 span {
+    color: var(--green);
+}
