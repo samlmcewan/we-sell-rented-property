@@ -62,5 +62,30 @@
         background-color: var(--darkBlue);
         padding-left: 4vw;
     }
+
+    .hero {
+        height: 32vw;
+    }
+    .hero h1 {
+        font-size: 4vw;
+    }
+    .hero .shapes-container {
+        bottom: -6.5vw;
+    }
+    .hero-text {
+        width: 75%;
+    }
+    .hero .btn {
+        margin-top: 10%;
+        font-size: 1.5rem;
+    }
+    .hero img {
+        left: 55%;
+    }
+    .hero .image-container::before {
+      
+        left: 52%;
+      
+    }
 }
         

@@ -4,15 +4,22 @@
 
      /* Hero  */
      .hero {
-        height: 41vw;
+        height: 50vw;
         position: relative; /* Add position relative to the .hero container */
     }
     .hero-text {
-        width: 60%;
+        width: 65%;
     }
 
     .hero h1 {
+        font-size: 2.7em;
         padding-bottom: 2rem;
+        padding-top: 0.75em;
+    }
+    .hero .btn {
+        font-size: 1.25rem;
+        margin-top: 15%;
+        margin-right: 15%;
     }
     
     .hero .image-container {
@@ -21,7 +28,7 @@
         right: 0; /* Position the image container at the right of the .hero container */
         width: fit-content;
         overflow: hidden;
-        height: 115%;
+        height: 113%;
     }
     
     .hero img {
@@ -32,19 +39,27 @@
         object-position: left;
         clip-path: polygon(100% 0, 100% 100%, 0 100%, 14% 0%);
         position: relative;
-        left: 39vw;
+        left: 48vw;
     }
     
     .hero .image-container::before {
         content: '';
         position: absolute;
         top: 0;
-        left: 36vw;
+        left: 46vw;
         width: 100%;
         height: 100%;
         background-color: white;
         clip-path: polygon(100% 0, 100% 100%, 0 100%, 14% 0%);
         z-index: 0;
+    }
+    .hero .shapes-container {
+        bottom: -7.5vw;
+    }
+
+    .shapes-container .combined-svg {
+        width: calc(278.64px*.9);
+        height: calc(406.44px*.9);
     }
 
 }

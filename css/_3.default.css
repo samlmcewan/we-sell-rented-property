@@ -267,7 +267,7 @@ body {
     color: #ffffff;
     font-size: 3.364rem;
     font-size: 3em;
-    padding-bottom: 4rem;
+    padding-bottom: 2rem;
 }
 
 .hero h1 span {
@@ -282,12 +282,12 @@ body {
 .hero .shapes-container {
     position: absolute;
     left: 0;
-    bottom: -88px;
+    bottom: -13%;
 }
 .shapes-container .combined-svg {
     position: relative;
-    width: calc(278.64px*.5); 
-    height: calc(406.44px*.5); 
+    width: calc(278.64px*.7); 
+    height: calc(406.44px*.7); 
 }
 
 .shapes-container .combined-svg svg {
