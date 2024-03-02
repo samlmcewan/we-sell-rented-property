@@ -61,5 +61,10 @@
         width: calc(278.64px*.9);
         height: calc(406.44px*.9);
     }
+    .about-us .shapes-container .combined-svg {
+     
+        width: calc(278.64px*1.1); 
+        height: calc(406.44px*1.1); 
+    }
 
 }

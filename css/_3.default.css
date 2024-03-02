@@ -26,6 +26,14 @@ body {
     color: #ffffff;
     border: 2px solid var(--green);
 }
+.btn-white {
+    color: #ffffff;
+    border: 2px solid #ffffff;
+}
+.btn-white:hover {
+    background-color: #ffffff;
+    color: var(--blue);
+}
 
 /*--------------------------------------------------------------
 # Top Bar
@@ -484,3 +492,27 @@ body {
 /*--------------------------------------------------------------
 # About Us
 --------------------------------------------------------------*/
+.about-us .shapes-container {
+    position: absolute;
+    right: 0;
+    bottom: -3rem;
+    transform: scaleX(-1);
+}
+.about-us .container-fluid {
+    background-color: var(--blue);
+    position: relative;
+}
+.about-us .shapes-container .combined-svg {
+    position: relative;
+    width: calc(278.64px*.7); 
+    height: calc(406.44px*.7); 
+}
+
+.about-us p {
+    color: #ffffff;
+}
+
+.about-us .btn:hover {
+  
+   cursor: pointer;
+}
