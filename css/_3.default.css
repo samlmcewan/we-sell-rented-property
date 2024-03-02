@@ -574,3 +574,13 @@ body {
 .selected-properties a:hover h3, .selected-properties a:hover p {
     color: var(--green);
 }
+
+.selected-properties .btn-green {
+    text-transform: uppercase;
+    font-weight: 300;
+    border: 2px solid var(--green);
+}
+.selected-properties .btn-green:hover {
+    background-color: var(--green);
+    color: #ffffff;
+}
