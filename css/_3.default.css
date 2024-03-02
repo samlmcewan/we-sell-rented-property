@@ -9,6 +9,12 @@ body {
 .uppercase {
     text-transform: uppercase;
 }
+
+.section-title {
+    color: var(--green);
+    font-weight: 700;
+    font-size: 3.5rem;
+}
 /* Buttons  */
 .btn {
     border-radius: 0;
@@ -222,41 +228,6 @@ body {
 /*--------------------------------------------------------------
 # Hero
 --------------------------------------------------------------*/
-/* .hero {
-    background-color: var(--blue);
-    height: 67vh;
-}
-
-.hero .image-container {
-    position: relative;
-    width: fit-content;
-    overflow: hidden;
-    height: 100%;
-}
-
-
-.hero img {
-    display: block;
-    width: fit-content;
-    height: 100%;
-    object-fit: cover;
-    object-position: left;
-    clip-path: polygon(385.23px 0.5px, 113px 0.5px, 0.61px 568.14px, 385.55px 566.94px, 385.23px 0.5px);
-    position: relative;
-    right: -30px;
-}
-.hero .image-container::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: -10px;
-    width: 100%;
-    height: 100%;
-    background-color: white;
-    clip-path: polygon(385.23px 0.5px, 113px 0.5px, 0.61px 568.14px, 385.55px 566.94px, 385.23px 0.5px);
-    z-index: 0;
-} */
-
 .hero {
     background-color: var(--blue);
     /* height: 34vh; */
@@ -326,7 +297,7 @@ body {
     /* transition: opacity 0.5s ease-in-out; */
   }
   
-  .fade-on-scroll svg.fade-in {
+  /* .fade-on-scroll svg.fade-in {
     opacity: 1;
   }
   
@@ -346,7 +317,7 @@ body {
   .svg-3 {
     transform: translateX(calc(var(--scroll) * -.5px));
     opacity: calc(1 - var(--scroll) * -.15);
-  }
+  } */
 
   /* .fade-on-scroll svg {
   opacity: 0;
@@ -360,4 +331,50 @@ body {
 
 .margin {
     margin-top:500rem;
+}
+
+/*--------------------------------------------------------------
+# Steps
+--------------------------------------------------------------*/
+.steps {
+    margin-top: 7rem;
+}
+
+.steps .card {
+    border-radius: 0;
+}
+.steps .card-header {
+    background-color: var(--blue);
+    border-radius: 0;
+    position: relative;
+}
+.steps h3 {
+    color: #ffffff;
+    font-size: 3rem;
+    font-weight: 300;
+    margin: 2rem 0;
+    text-transform: uppercase;
+}
+.steps .card-header svg {
+    width: 3rem;
+    position: absolute;
+    bottom: -1.5rem;
+    margin-left: -0.75rem;
+}
+.steps .card-body svg {
+    width: 7rem;
+}
+.steps .card-body p {
+    font-size: 2rem;
+    /* max-width: 80%; */
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.steps .btn-green {
+    color: #ffffff;
+    font-size: 2rem;
+    font-style: italic;
+    background-color: var(--green);
+    width: 100%;
 }

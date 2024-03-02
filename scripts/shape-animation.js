@@ -1,8 +1,8 @@
 // CSS --scroll variable 
-window.addEventListener('scroll', () => {
-    const scrollProgress = window.pageYOffset / (document.body.offsetHeight - window.innerHeight);
-    document.body.style.setProperty('--scroll', scrollProgress);
-  }, false);
+// window.addEventListener('scroll', () => {
+//     const scrollProgress = window.pageYOffset / (document.body.offsetHeight - window.innerHeight);
+//     document.body.style.setProperty('--scroll', scrollProgress);
+//   }, false);
 
 
 // Get the elements to animate

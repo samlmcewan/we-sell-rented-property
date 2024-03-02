@@ -61,6 +61,15 @@
         width: calc(278.64px*.6); 
         height: calc(406.44px*.6); 
     }
+
+    .steps .btn-green {
+       padding-left: 5rem;
+       padding-right: 5rem;
+       width: unset;
+    }
     
+    .steps .card-body svg {
+        /* width: 30%; */
+    }
     
 }
