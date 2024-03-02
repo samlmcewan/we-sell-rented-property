@@ -253,6 +253,11 @@ body {
 .hero .btn-outline {
     z-index: 900;
 }
+.hero .btn-outline:hover {
+    border: 2px solid var(--green);
+    background-color: var(--green);
+    color: var(--darkBlue);
+}
 
 /* Shapes  */
 .hero .shapes-container {
@@ -465,7 +470,17 @@ body {
     background-color: rgba(10, 18, 47, .8)!important;
     --bs-modal-width: 90%;
   } 
- 
+  .video .vid-thumbnail{
+    width: 100%;
+  }
+  .video .vid-thumbnail svg g polyline:first-of-type {
+    transition: all .3s;
+  }
+
+  
+  .video .vid-thumbnail:hover svg g polyline:first-of-type {
+    fill: var(--darkBlue)!important;
+}
 /*--------------------------------------------------------------
 # About Us
 --------------------------------------------------------------*/
