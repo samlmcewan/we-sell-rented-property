@@ -121,7 +121,7 @@
             <div class="container">
                 <div class="hero-text d-flex flex-column justify-content-between pt-5">
                     <h1>Where <span>landlords</span> buy and sell</h1>
-                    <button class="btn btn-outline uppercase align-self-end">How we can help</button>
+                    <button class="btn btn-outline uppercase align-self-end" data-bs-toggle="modal" data-bs-target="#videoModal">How we can help</button>
                 </div>
                 
                 <!-- Shapes  -->
@@ -265,10 +265,37 @@
         </section>
         <!-- End Buy Sell  -->
 
+        <!-- Video -->
+        <section class="video py-5">
+            <div class="container py-5">
+                <div class="row">
+                    <div class="col-12">
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#videoModal">
+                            Open Video
+                          </button>
+                          <div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="videoModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-xl">
+                              <div class="modal-content">
+                                <div class="modal-body p-0">
+                                  <div class="ratio ratio-16x9">
+                                    <iframe src="https://www.youtube.com/embed/p-Wv1LfMV74?rel=0" allowfullscreen></iframe>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
 
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Video -->
+
+     
 
         <script src='/scripts/bootstrap.bundle.min.js'></script>   
         <script src='/scripts/shape-animation.js'></script>   
         <script src='/scripts/circle-img-height.js'></script>   
+        <script src='/scripts/video.js'></script>   
     </body>
 </html>

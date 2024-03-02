@@ -250,6 +250,10 @@ body {
     padding-bottom: 12rem;
 }
 
+.hero .btn-outline {
+    z-index: 900;
+}
+
 /* Shapes  */
 .hero .shapes-container {
     position: absolute;
@@ -447,3 +451,21 @@ body {
 .buy-sell a:hover p svg {
     transform: translateX(10px);
 }
+/*--------------------------------------------------------------
+# Video
+--------------------------------------------------------------*/
+
+.modal-backdrop {
+    background-color: rgba(10, 18, 47, 1)!important;
+    opacity: 1;
+  }
+ 
+  .modal {
+  
+    background-color: rgba(10, 18, 47, .8)!important;
+    --bs-modal-width: 90%;
+  } 
+ 
+/*--------------------------------------------------------------
+# About Us
+--------------------------------------------------------------*/
