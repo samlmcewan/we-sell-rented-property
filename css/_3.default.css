@@ -240,7 +240,7 @@ body {
 .hero {
     background-color: var(--blue);
     /* height: 34vh; */
-    position: relative; /* Add position relative to the .hero container */
+    position: relative;
 }
 
 .hero h1 {
@@ -306,49 +306,6 @@ body {
     top: 24.36%;
     width: 100%;
     height: 75.42%;
-}
-
-/* Shape animation  */
-
-.fade-on-scroll svg {
-    /* opacity: 0; */
-    /* transition: opacity 0.5s ease-in-out; */
-  }
-  
-  /* .fade-on-scroll svg.fade-in {
-    opacity: 1;
-  }
-  
-  .fade-on-scroll svg.fade-out {
-    opacity: 0;
-  }
-
-  .svg-1 {
-    transform: translateY(calc(var(--scroll) * 5px));
-    opacity: calc(1 - var(--scroll) * -0.15); 
-  }
-
-  .svg-2 {
-    transform: translateY(calc(var(--scroll) * 10px));
-    opacity: calc(1 - var(--scroll) * -0.15); 
-  }
-  .svg-3 {
-    transform: translateX(calc(var(--scroll) * -.5px));
-    opacity: calc(1 - var(--scroll) * -.15);
-  } */
-
-  /* .fade-on-scroll svg {
-  opacity: 0;
-  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
-}
-
-
-.svg-1 { transition-duration: 0.3s; }
-.svg-2 { transition-duration: 0.4s; }
-.svg-3 { transition-duration: 0.6s; } */
-
-.margin {
-    margin-top:500rem;
 }
 
 /*--------------------------------------------------------------
@@ -584,3 +541,29 @@ body {
     background-color: var(--green);
     color: #ffffff;
 }
+/*--------------------------------------------------------------
+# Get In Touch
+--------------------------------------------------------------*/
+.get-in-touch {
+    background-color: var(--blue);
+    position: relative;
+    padding-bottom: 13rem;
+}
+
+/* Shapes  */
+.get-in-touch .shapes-container {
+    position: absolute;
+    left: 0;
+    bottom: -13%;
+}
+
+.get-in-touch .contact p {
+    color: #ffffff;
+}
+
+.get-in-touch .contact p:first-of-type {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
