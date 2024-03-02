@@ -378,3 +378,71 @@ body {
     background-color: var(--green);
     width: 100%;
 }
+
+/*--------------------------------------------------------------
+# Buy Sell
+--------------------------------------------------------------*/
+
+.buy-sell img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    /* min-height: 350px; */
+}
+
+.buy-sell .container-fluid {
+    position: relative;
+}
+.buy-sell .container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: fit-content;
+}
+.buy-sell .circle {
+    background-color: var(--blue);
+    border-radius: 50%;
+    width: 350px;
+    height: 350px;
+    border: 4px solid var(--blue);
+    transition: all .3s;
+}
+.buy-sell .circle .logo svg:first-of-type {
+    width: 60px;
+}
+.buy-sell .circle .logo svg:last-of-type {
+    width: 200px;
+}
+.buy-sell .circle h2 {
+    color: #ffffff;
+    font-size: 2rem;
+    font-weight: 300;
+}
+.buy-sell .circle p svg {
+    transition: all .3s ease;
+}
+.buy-sell .circle h2 span, .buy-sell .circle p {
+    color: var(--green);
+    text-transform: uppercase;
+    font-weight: 700;
+    transition: all .3s;
+}
+.buy-sell .circle p svg {
+    width: 40px;
+}
+.buy-sell a {
+    text-decoration: none;
+}
+
+.buy-sell a:hover {
+    background-color: var(--darkBlue);
+    border-color: var(--green);
+}
+.buy-sell a:hover h2 span, .buy-sell a:hover p {
+    color: #ffffff;
+}
+.buy-sell a:hover p svg {
+    transform: translateX(10px);
+}
