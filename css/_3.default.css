@@ -396,6 +396,8 @@ body {
     font-style: italic;
     background-color: var(--green);
     width: 100%;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
 }
 
 /*--------------------------------------------------------------
@@ -464,6 +466,7 @@ body {
 .buy-sell a:hover p svg {
     transform: translateX(10px);
 }
+
 /*--------------------------------------------------------------
 # Video
 --------------------------------------------------------------*/
@@ -515,4 +518,59 @@ body {
 .about-us .btn:hover {
   
    cursor: pointer;
+}
+
+
+/*--------------------------------------------------------------
+# Selected Properties
+--------------------------------------------------------------*/
+.selected-properties .card {
+    border-radius: 0;
+    border: 3px solid #ffffff;
+    transition: all .3s;
+}
+.selected-properties a {
+    color: var(--darkBlue);
+    text-decoration: none;
+}
+.selected-properties a img {
+    transition: all .3s;
+}
+.selected-properties .card-link {
+    text-transform: uppercase;
+    color: var(--green);
+    font-weight: 600;
+}
+.selected-properties .card-link svg {
+    width: 50px;
+    transition: all .3s;
+}
+.selected-properties a:hover.card {
+    border: 3px solid var(--green);
+    background-color: #ffffff;
+    /* background-color: #fafafa; */
+
+}
+.selected-properties a:hover .card-link svg {
+    transform: translateX(10px);
+}
+.selected-properties a:hover img {
+    opacity: .8;
+}
+
+.selected-properties .card-title h3 {
+    font-weight: 300;
+    font-size: 1.75rem;
+}
+.selected-properties .card-title p {
+    font-size: 1.75rem;
+    font-weight: 600;
+}
+.selected-properties .card-body p {
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+.selected-properties a:hover h3, .selected-properties a:hover p {
+    color: var(--green);
 }
