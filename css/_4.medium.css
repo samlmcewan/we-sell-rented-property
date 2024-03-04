@@ -105,5 +105,14 @@
         clip-path: polygon(0 100%, 0 0, 100% 0, 86% 100%);
     }
 
+     /* Footer - Medium devices */
+    
+     .shfooter .collapse {
+        display: none;
+    }
+    footer .container {
+        padding-top: 1.5rem;
+    }
+
 
 }
