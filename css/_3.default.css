@@ -4,6 +4,7 @@
 # Typography
 --------------------------------------------------------------*/
 body {
+    font-family: "Poppins", sans-serif;
     font-size: 1.125rem;
 }
 .uppercase {
@@ -19,6 +20,7 @@ body {
 .btn {
     border-radius: 0;
     font-size: 1.125rem;
+    font-weight: 300;
     padding: .75rem 2rem;
     width: fit-content;
 }
@@ -74,18 +76,16 @@ body {
     width: 55vw;
 }
 
-#main-nav .active a {
-    /* color: #ffffff; */
-}
 
 #main-nav a {
     /* text-transform: uppercase; */
     color: var(--blue);
+    font-family: "Barlow", sans-serif;
     font-weight: 400;
     transition: all .3s;
 }
 #main-nav .nav-item:hover a{
-    color: var(--gray);
+    color: var(--green);
 }
 
 #main-nav .nav-item {
@@ -518,14 +518,17 @@ body {
 .selected-properties .card-title h3 {
     font-weight: 300;
     font-size: 1.75rem;
+    font-family: "Barlow", sans-serif;
 }
 .selected-properties .card-title p {
     font-size: 1.75rem;
     font-weight: 600;
+    font-family: "Barlow", sans-serif;
 }
 .selected-properties .card-body p {
     font-weight: 300;
     font-size: 1rem;
+    font-family: "Barlow", sans-serif;
 }
 
 .selected-properties a:hover h3, .selected-properties a:hover p {
@@ -535,6 +538,7 @@ body {
 .selected-properties .btn-green {
     text-transform: uppercase;
     font-weight: 300;
+    font-family: "Barlow", sans-serif;
     border: 2px solid var(--green);
 }
 .selected-properties .btn-green:hover {
