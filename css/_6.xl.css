@@ -87,5 +87,31 @@
         left: 52%;
       
     }
-}
+
+    .get-in-touch {
+        height: fit-content;
+    }
+    .get-in-touch img {
+        /* right: 20%; */
+        /* right: 16rem; */
+        /* right: calc(0 - 63vw); */
+        /* position: absolute; */
+    }
+    .get-in-touch .image-container::before {
+        /* right: 20%; */
+        /* right: 61vw; */
+    }
+    .get-in-touch .shapes-container .combined-svg {
+        width: calc(278.64px*1.1);
+        height: calc(406.44px*1.1);
+    }
+    .get-in-touch .shapes-container .combined-svg {
+        top: -4.75em;
+    }
+    .get-in-touch .shapes-container {
+        bottom: calc(-37.5% + 3rem);
         
+    }
+
+    
+}

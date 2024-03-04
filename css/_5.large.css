@@ -67,4 +67,12 @@
         height: calc(406.44px*1.1); 
     }
 
+  
+    .get-in-touch {
+        padding-bottom: 3rem;
+    }
+
+    .get-in-touch .shapes-container {
+        bottom: calc(-16.5% + 3rem);
+    }
 }
