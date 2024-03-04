@@ -567,3 +567,11 @@ body {
     font-size: 1.5rem;
 }
 
+
+.white-container {
+    width: 25%;
+    height: 100%;
+    position: absolute;
+    background-color: #ffffff;
+    left: 0;
+}
