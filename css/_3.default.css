@@ -57,14 +57,12 @@ body {
     height: 25px;
     padding: 0 .75rem;
 }
-
+.social-top a:hover svg g path {
+    fill: var(--green)!important;
+}
 /*--------------------------------------------------------------
 # Main Navigation
 --------------------------------------------------------------*/
-.nav-outer {
-    /* background-color: var(--gray); */
-}
-
 .navbar-toggler {
     border: none;
 }
@@ -78,7 +76,6 @@ body {
 
 
 #main-nav a {
-    /* text-transform: uppercase; */
     color: var(--blue);
     font-family: "Barlow", sans-serif;
     font-weight: 400;
@@ -140,13 +137,6 @@ body {
     text-decoration: none;
 
 }
-
-/* .top-bar {
-    flex-basis: 100%;
-    flex-grow: 1;
-    align-items: center;
-    box-sizing: border-box;
-} */
 
 /* Collapse Button Mobile */
 .animated-icon {
@@ -239,7 +229,6 @@ body {
 --------------------------------------------------------------*/
 .hero {
     background-color: var(--blue);
-    /* height: 34vh; */
     position: relative;
 }
 
@@ -342,7 +331,6 @@ body {
 }
 .steps .card-body p {
     font-size: 2rem;
-    /* max-width: 80%; */
     text-align: center;
     margin: 2rem 0;
 }
@@ -364,7 +352,6 @@ body {
     width: 100%;
     height: auto;
     object-fit: cover;
-    /* min-height: 350px; */
 }
 
 .buy-sell .container-fluid {
@@ -612,7 +599,6 @@ footer#footer {
     }
 
         footer a:hover {
-            /* text-decoration: underline; */
             color: var(--goldDarker);
         }
 
@@ -729,7 +715,6 @@ footer hr:not([size]) {
 footer ul li {
     padding-left: 0;
     text-indent: 0;
-    /* remove this if issue 616 617 */
     display: flex;
     align-items: center;
 }

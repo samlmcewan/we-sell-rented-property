@@ -36,7 +36,6 @@
     #main-nav .nav-item.active {
         background-color: unset;
         color: var(--green);
-        /* border-bottom: 2px solid var(--green); */
     }
     #main-nav .nav-item.active a {
         color: var(--light);
