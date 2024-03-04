@@ -97,6 +97,9 @@
         /* right: calc(0 - 63vw); */
         /* position: absolute; */
     }
+    .get-in-touch-text {
+        padding-left: 9rem!important;
+    }
     .get-in-touch .image-container::before {
         /* right: 20%; */
         /* right: 61vw; */
